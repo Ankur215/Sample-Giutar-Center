@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html ng-app="guitarapp">
+<head>
+	<title>Best online guitar shop</title>
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="file:///D:/Pro-Tek/Angular.JS/Guitar-App/CSS/style.css">
+</head>
+<body style="background: linear-gradient(-90deg, #7a7875, #eae6de); width: auto; height: auto; ">
+<div class="container">
+		<div class="nav">
+			<div class="row">
+				
+				<div class="col-lg-1 col-md-1 col-sm-1 col-xs-4"></div>
+				<div class="col-lg-1 col-md-1 col-sm-7 col-xs-5"><a href="#" style="font-size: 25px;">Bass</a></div>
+				<div class="col-lg-1 col-md-1 col-sm-1 col-xs-4"></div>
+				<div class="col-lg-1 col-md-1 col-sm-3 col-xs-5">
+					<a href="#" class="guitar" style="font-size: 25px;">Guitars</a>
+					<div class="dropdown-content">
+					    <a href="#">Guitar 1</a>
+					    <a href="#">Guitar 2</a>
+					    <a href="#">Guitar 3</a>
+					 </div>
+				</div>
+				<div class="col-lg-1 col-md-1 col-sm-1 col-xs-4"></div>
+				<div class="col-lg-1 col-md-1 col-sm-7 col-xs-5"><a href="#" style="font-size: 25px;">Drums</a></div>
+				<div class="col-lg-1 col-md-1 col-sm-1 col-xs-4"></div>
+				<div class="col-lg-3 col-md-3 col-sm-3 col-xs-5"><a href="#" style="font-size: 25px;">Used Gear</a></div>
+				<div class="hidden-lg hidden-md col-sm-1 col-xs-4"></div>
+				<div class="col-lg-1 col-md-1 col-sm-3 col-xs-5"><a href="#" style="font-size: 25px;">Clearence</a></div>
+				</div>
+			</div>
+	</div>
+
+	<div ui-view></div>
+
+	<div class="footer">
+			<div class="row">
+				<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
+				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-11"><a href="#" style="font-size: 25px;">Home</a></div>
+				<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
+				<div class="col-lg-3 col-md-3 col-sm-4 col-xs-11"><a href="#" style="font-size: 25px;">ABOUT US</a></div>
+				<div class="col-lg-1 col-md-1 col-sm-4 col-xs-1"></div>
+				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-11"><a href="#" style="font-size: 25px;">CONTACT US</a></div>
+				
+				</div>
+			</div>
+
+
+	
+<script src="file:///D:/Pro-Tek/Angular.JS/Guitar-App/Lib/angular.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.2/angular-ui-router.js"></script>
+<script src="file:///D:/Pro-Tek/Angular.JS/Guitar-App/Controller/home.js"></script>
+<script src="file:///D:/Pro-Tek/Angular.JS/Guitar-App/Controller/purchase_ctrl.js"></script>
+<script src="file:///D:/Pro-Tek/Angular.JS/Guitar-App/Controller/confirm_ctrl.js"></script>
+<script src="file:///D:/Pro-Tek/Angular.JS/Guitar-App/Controller/config.js"></script>
+<script src="file:///D:/Pro-Tek/Angular.JS/Guitar-App/Controller/service.js"></script>
+</body>
+</html>
